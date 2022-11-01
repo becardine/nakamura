@@ -62,8 +62,7 @@
                 </div>
             </nav>
         </div>
-        <!-- Page Content -->
-        <main>
+        <main class="m-2 p-8 w-full">
             {{ $slot }}
         </main>
     </div>
