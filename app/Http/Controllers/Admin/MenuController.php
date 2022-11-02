@@ -78,7 +78,7 @@ class MenuController extends Controller
      */
     public function update(Request $request, Menu $menu)
     {
-        $request->validate([
+        $request->validated([
             'name' => 'required',
             'description' => 'required',
             'price' => 'required',
