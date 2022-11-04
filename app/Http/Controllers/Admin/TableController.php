@@ -27,7 +27,7 @@ class TableController extends Controller
      */
     public function create()
     {
-        return view('admin.tables.create');
+        return view('admin.tables.create')->with('success', 'Table created successfully');
     }
 
     /**
@@ -81,7 +81,7 @@ class TableController extends Controller
     {
         $table->update($request->validated());
 
-        return to_route('admin.tables.index');
+        return to_route('admin.tables.index')->with('success', 'Table update successfully');
     }
     
     /**
@@ -93,6 +93,7 @@ class TableController extends Controller
     public function destroy(Table $table)
     {
         $table->delete();
-        return to_route('admin.tables.index');
+        $table->reservations()->delete();
+        return to_route('admin.tables.index')->with('danger', 'Table deleted successfully');
     }
 }
