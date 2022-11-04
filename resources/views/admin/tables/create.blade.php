@@ -11,7 +11,7 @@
                 <a href="{{ route('admin.tables.index') }}" class="px-4 py-2 bg-indigo-500 hover:bg-indigo-700 rounded-lg text-white">Table Index</a>
             </div>
             <div class="m-2 p-2 bg-slate-100 rounded">
-                <div class="space-y-8 divide-y divide-gray-200 w-1/2 mt-10">
+                <div class="space-y-8 divide-y divide-gray-200 mt-10">
                     <form method="POST" action="{{ route('admin.tables.store') }}">
                         @csrf
                         <div class="sm:col-span-6">

@@ -11,7 +11,7 @@
                 <a href="{{ route('admin.menus.index') }}" class="px-4 py-2 bg-indigo-500 hover:bg-indigo-700 rounded-lg text-white">Menus Index</a>
             </div>
             <div class="m-2 p-2 bg-slate-100 rounded">
-                <div class="space-y-8 divide-y divide-gray-200 w-1/2 mt-10">
+                <div class="space-y-8 divide-y divide-gray-200 mt-10">
                     <form method="POST" action="{{ route('admin.menus.update', $menu->id) }}" enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
@@ -57,7 +57,7 @@
                             @enderror
                         </div>
                         <div class="sm:col-span-6 pt-5">
-                            <label for="description" class="block text-sm font-medium text-gray-700">Categories</label>
+                            <label for="categories" class="block text-sm font-medium text-gray-700">Categories</label>
                             <div class="mt-1">
                                 <select id="categories" name="categories[]" class="form-multiselect block w-full mt-1" multiple="">
                                     @foreach ($categories as $category)
@@ -65,7 +65,7 @@
                                     @endforeach
                                 </select>
                             </div>
-                            @error('description')
+                            @error('categories')
                             <div class="text-sm text-red-400">{{ $message }}</div>
                             @enderror
                         </div>
