@@ -99,7 +99,7 @@
                 TODAY'S SPECIALITY</h2>
         </div>
         <div class="container w-full px-5 py-6 mx-auto">
-            <div class="grid lg:grid-cols-4 gap-y-6">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-y-6">
                 <div class="max-w-xs mx-4 mb-2 rounded-lg shadow-lg">
                     <img class="w-full h-48" src="https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg" alt="Image" />
                     <div class="px-6 py-4">
@@ -203,7 +203,7 @@
                 Food Gallery</h2>
             <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta sapient</p>
         </div>
-        <div class="container grid gap-4 mx-auto lg:grid-cols-3">
+        <div class="container grid gap-4 mx-auto lg:grid-cols-3 md:grid-cols-3">
             <div class="w-full rounded">
                 <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="image" class="object-cover w-full h-80">
             </div>
