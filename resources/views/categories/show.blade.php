@@ -11,7 +11,8 @@
                 <div class="flex items-center justify-between p-4">
                     <span class="text-xl text-green-600">R$ {{ $menu->price }}</span>
                 </div>
-                @endforeach
             </div>
+                @endforeach
         </div>
+    </div>
 </x-guest-layout>
