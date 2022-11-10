@@ -95,62 +95,51 @@
         </div>
     </section>
 
-    <section class="pt-4 pb-12 bg-gray-800">
+    <section class="pt-4 pb-12">
         <div class="my-16 text-center">
-            <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+            <h2 class="text-3xl font-bold text-red-700">
                 Testimonial </h2>
             <p class="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta sapient</p>
         </div>
-        <div class="grid gap-2 lg:grid-cols-3">
-            <div class="max-w-md p-4 bg-white rounded-lg shadow-lg">
+        <div class="grid justify-center justify-items-center gap-2 lg:grid-cols-3 grid-cols-3 mx-10">
+            <div class="max-w-md p-4 bg-slate-800 rounded-lg shadow-lg md:mt-16 flex flex-col justify-around">
                 <div class="flex justify-center -mt-16 md:justify-end">
-                    <img class="object-cover w-20 h-20 border-2 border-green-500 rounded-full"
+                    <img class="object-cover w-20 h-20 border-2 border-red-700 rounded-full"
                         src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
                 </div>
                 <div>
-                    <h2 class="text-3xl font-semibold text-gray-800">Food</h2>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-                        deserunt
-                        ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
-                        pariatur
-                        minus consequuntur!</p>
+                    <h2 class="text-2xl font-semibold text-white">Combinado do chef</h2>
+                    <p class="mt-2 text-gray-600">Um dos melhores restaurantes que tive o prazer de conhecer. Realmente incrivel! Do atendimento aos pratos. Parabéns a equipe!</p>
                 </div>
                 <div class="flex justify-end mt-4">
-                    <a href="#" class="text-xl font-medium text-green-500">John Doe</a>
+                    <a href="#" class="text-xl font-medium text-red-700 disabled">John Doe</a>
                 </div>
             </div>
-            <div class="max-w-md p-4 bg-white rounded-lg shadow-lg">
+            <div class="max-w-md p-4 bg-slate-800 rounded-lg shadow-lg md:mt-16 flex flex-col justify-around">
                 <div class="flex justify-center -mt-16 md:justify-end">
-                    <img class="object-cover w-20 h-20 border-2 border-green-500 rounded-full"
+                    <img class="object-cover w-20 h-20 border-2 border-red-700 rounded-full"
                         src="https://cdn.pixabay.com/photo/2018/01/04/21/15/young-3061652__340.jpg">
                 </div>
                 <div>
-                    <h2 class="text-3xl font-semibold text-gray-800">Food</h2>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-                        deserunt
-                        ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
-                        pariatur
-                        minus consequuntur!</p>
+                    <h2 class="text-2xl font-semibold text-white">Rodizio Premium
+                    </h2>
+                    <p class="mt-2 text-gray-600">Já tem alguns anos que sou cliente. E é impressionante como a qualidade sempre me surpreende. Não tem outro igual!</p>
                 </div>
                 <div class="flex justify-end mt-4">
-                    <a href="#" class="text-xl font-medium text-green-500">John Doe</a>
+                    <a href="#" class="text-xl font-medium text-red-700">Katy Perry</a>
                 </div>
             </div>
-            <div class="max-w-md p-4 bg-white rounded-lg shadow-lg">
+            <div class="max-w-md p-4 bg-slate-800 rounded-lg shadow-lg md:mt-16 flex flex-col justify-around">
                 <div class="flex justify-center -mt-16 md:justify-end">
-                    <img class="object-cover w-20 h-20 border-2 border-green-500 rounded-full"
+                    <img class="object-cover w-20 h-20 border-2 border-red-700 rounded-full"
                         src="https://cdn.pixabay.com/photo/2018/01/18/17/48/purchase-3090818__340.jpg">
                 </div>
                 <div>
-                    <h2 class="text-3xl font-semibold text-gray-800">Food</h2>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-                        deserunt
-                        ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
-                        pariatur
-                        minus consequuntur!</p>
+                    <h2 class="text-2xl font-semibold text-white">Barca Especial</h2>
+                    <p class="mt-2 text-gray-600">Foi uma conincidência incrível conhecer esse restaurante. Atendimento nota mil. E a qualidade dos produtos é inquestionável.</p>
                 </div>
                 <div class="flex justify-end mt-4">
-                    <a href="#" class="text-xl font-medium text-green-500">John Doe</a>
+                    <a href="#" class="text-xl font-medium text-red-700">Demi Lovato</a>
                 </div>
             </div>
         </div>

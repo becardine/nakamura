@@ -46,11 +46,11 @@
     <div class="font-sans text-gray-900 antialiased min-h-screen">
         {{ $slot }}
     </div>
-    <footer>
-        <div class="container flex flex-wrap items-center justify-center px-4 py-4 mx-auto">
+    <footer class="bg-red-700">
+        <div class="container flex flex-wrap items-center justify-center px-4 py-3 mx-auto">
             <div class="flex flex-wrap justify-center">
-                <h2 class="flex items-center space-x-4 text-gray-500">
-                    Nakamura ©2022 - <a href="https://becardine.dev/" target="_blank" class="hover:text-red-500 delay-100 pl-1"> becardine</a>
+                <h2 class="flex items-center space-x-4 text-white font-semibold">
+                    Nakamura ©2022 - <a href="https://becardine.dev/" target="_blank" class="hover:text-slate-800 delay-100 pl-1"> becardine</a>
                 </h2>
             </div>
             {{-- <div class="flex justify-center mt-4 lg:mt-0">
