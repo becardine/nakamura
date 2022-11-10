@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 
-.main-hero {
+.main-hero,
+.section-about {
     height: 39rem;
 }
 
 @media (min-width:1440px) {
-    .main-hero {
+    .main-hero,
+    .section-about {
         height: 49rem;
     }
 }
