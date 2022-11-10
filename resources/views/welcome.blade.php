@@ -1,10 +1,10 @@
 <x-guest-layout>
     <!-- Main Hero Content -->
-    <div class="main-hero py-32 mx-auto -mt-24 text-left bg-center bg-no-repeat bg-cover md:max-w-none md:text-center"
+    <div class="main-hero py-32 mx-auto -mt-24 text-left bg-center bg-no-repeat bg-contain md:max-w-none md:text-center"
         style="background-image: url('{{ asset('images/banner-1.jpg') }}')">
     </div>
     <!-- End Main Hero Content -->
-    <section class="section-about px-2 py-32 bg-center bg-no-repeat bg-cover md:max-w-none md:text-center"
+    <section class="section-about px-2 py-32 bg-center bg-no-repeat bg-contain md:max-w-none md:text-center"
         style="background-image: url('{{ asset('images/session-about.jpg') }}')">
         <div class="items-center max-w-6xl px-8 mx-auto xl:px-5 sm:flex sm:flex-wrap">
             <div class="flex flex-wrap items-center sm:-mx-3">
@@ -25,7 +25,8 @@
                     </p>
                     <br>
                     <p class="text-white text-end">
-                        Aqui no <span class="text-red-700">Nakaruma</span>, criamos pratos com todo cuidado e com muito sabor. Conseguindo entregar o melhor da culinária japonesa com qualidade indiscutível.
+                        Aqui no <span class="text-red-700">Nakaruma</span>, criamos pratos com todo cuidado e com muito
+                        sabor. Conseguindo entregar o melhor da culinária japonesa com qualidade indiscutível.
                         Em nossos espaços você tem momentos agradáveis, um ambiente aconchegante, além é claro, do
                         melhor atendimento e frescor dos alimentos.
                     </p>
@@ -33,24 +34,26 @@
             </div>
         </div>
     </section>
-    <section class="mt-8 bg-white">
-        <div class="mt-4 text-center">
-            <h3 class="text-2xl font-bold">Our Menu</h3>
-            <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+    <section class="section-menus bg-center bg-no-repeat bg-contain md:max-w-none md:text-center"
+    style="background-image: url('{{ asset('images/session-menus.jpg') }}')">
+        <div class="text-center">
+            <h3 class="text-red-700 text-2xl font-bold">Our Menu</h3>
+            <h2 class="text-white text-3xl font-bold">
                 TODAY'S SPECIALITY</h2>
         </div>
         <div class="container w-full px-5 py-6 mx-auto">
             <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-y-6">
+
                 @foreach ($specials->menus as $menu)
-                    <div class="max-w-xs mx-4 mb-2 rounded-lg shadow-lg">
-                        <img class="w-full h-48" src="{{ Storage::url($menu->image) }}" alt="Image" />
-                        <div class="px-6 py-4">
-                            <h4 class="mb-3 text-xl font-semibold tracking-tight text-green-600 uppercase">
+                    <div class="bg-slate-800 max-w-xs mx-4 mb-2 rounded-lg shadow-lg">
+                        <img class="w-full h-48 rounded-t" src="{{ Storage::url($menu->image) }}" alt="Image" />
+                        <div class="px-4 py-4">
+                            <h4 class="mb-3 text-xl font-semibold tracking-tight text-white uppercase text-start">
                                 {{ $menu->name }}</h4>
-                            <p class="leading-normal text-gray-700">{{ $menu->description }}</p>
+                            <p class="leading-normal text-gray-600 text-start">{{ $menu->description }}</p>
                         </div>
                         <div class="flex items-center justify-between p-4">
-                            <span class="text-xl text-green-600">{{ $menu->price }}</span>
+                            <span class="text-xl text-red-700 font-semibold">R$ {{ $menu->price }}</span>
                         </div>
                     </div>
                 @endforeach

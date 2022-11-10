@@ -4,17 +4,19 @@
 
 
 .main-hero,
-.section-about {
+.section-about,
+.section-menus {
     height: 39rem;
 }
 
 @media (min-width:1440px) {
     .main-hero,
-    .section-about {
+    .section-about,
+    .section-menus {
         height: 49rem;
     }
 }
 
 body {
-    background-color: #13151E;
+    background-color: #13161f;
 }

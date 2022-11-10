@@ -9,7 +9,7 @@
     <title>{{ config('app.name', 'Nakamura') }}</title>
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap">
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -47,7 +47,7 @@
         {{ $slot }}
     </div>
     <footer>
-        <div class="container flex flex-wrap items-center justify-center px-4 py-4 mx-auto lg:justify-between">
+        <div class="container flex flex-wrap items-center justify-center px-4 py-4 mx-auto">
             <div class="flex flex-wrap justify-center">
                 <h2 class="flex items-center space-x-4 text-gray-500">
                     Nakamura ©2022 - <a href="https://becardine.dev/" target="_blank" class="hover:text-red-500 delay-100 pl-1"> becardine</a>
