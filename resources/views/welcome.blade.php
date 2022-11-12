@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 justify-end space-y-4">
-                    <h1 class="text-red-700 text-5xl text-end font-bold">Nossa História</h1>
+                    <h1 class="text-red-700 text-4xl text-end font-openJapan">Nossa Historia</h1>
                     <p class="text-white text-end">
                         Com a vinda dos imigrantes japoneses há mais de um século, vieram com eles novos hábitos de uma
                         nova cultura e da culinária japonesa. Os pratos e itens vindos do Oriente integraram-se com a
@@ -37,7 +37,7 @@
     <section class="section-menus bg-center bg-no-repeat bg-contain md:max-w-none md:text-center"
     style="background-image: url('{{ asset('images/session-menus.jpg') }}')">
         <div class="text-center">
-            <h3 class="text-red-700 text-2xl font-bold">Our Menu</h3>
+            <h3 class="text-red-700 text-2xl font-openJapan">Our Menu</h3>
             <h2 class="text-white text-3xl font-bold">
                 TODAY'S SPECIALITY</h2>
         </div>
@@ -61,7 +61,7 @@
             </div>
         </div>
     </section>
-    <section class="pt-4 pb-12 bg-gray-50">
+    <section class="pt-4 pb-12">
         <div class="my-8 text-center">
             <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
                 Food Gallery</h2>
@@ -95,9 +95,9 @@
         </div>
     </section>
 
-    <section class="pt-4 pb-12">
+    <section class="pt-4 pb-32">
         <div class="my-16 text-center">
-            <h2 class="text-3xl font-bold text-red-700">
+            <h2 class="text-4xl text-red-700 font-openJapan">
                 Testimonial </h2>
             <p class="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta sapient</p>
         </div>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: OnsenJapan;
+    src: url('/public/fonts/OnsenJapanDemoRegular.ttf');
+}
 
 .main-hero,
 .section-about,
@@ -19,4 +23,8 @@
 
 body {
     background-color: #13161f;
+}
+
+.font-openJapan {
+    font-family: OnsenJapan;
 }
