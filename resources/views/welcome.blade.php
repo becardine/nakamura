@@ -17,18 +17,13 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 justify-end space-y-4">
-                    <h1 class="text-red-700 text-4xl text-end font-openJapan">Nossa Historia</h1>
+                    <h1 class="text-red-700 text-4xl text-end font-openJapan">Our History</h1>
                     <p class="text-white text-end">
-                        Com a vinda dos imigrantes japoneses há mais de um século, vieram com eles novos hábitos de uma
-                        nova cultura e da culinária japonesa. Os pratos e itens vindos do Oriente integraram-se com a
-                        comida do Ocidente e surgiu uma diversificada alimentação.
+                        With the arrival of Japanese immigrants more than a century ago, new habits of a new Japanese culture and cuisine came with them. Dishes and items from the East were integrated with food from the West and a diverse diet emerged.
                     </p>
                     <br>
                     <p class="text-white text-end">
-                        Aqui no <span class="text-red-700">Nakaruma</span>, criamos pratos com todo cuidado e com muito
-                        sabor. Conseguindo entregar o melhor da culinária japonesa com qualidade indiscutível.
-                        Em nossos espaços você tem momentos agradáveis, um ambiente aconchegante, além é claro, do
-                        melhor atendimento e frescor dos alimentos.
+                        Here at <span class="text-red-700">Nakaruma</span>, we create dishes with great care and with a lot of flavor. Getting the best of Japanese cuisine with indisputable quality. In our spaces you have pleasant moments, a cozy atmosphere, in addition to, of course, the best service and freshness of food.
                     </p>
                 </div>
             </div>
@@ -63,9 +58,11 @@
     </section>
     <section class="pt-4 pb-12">
         <div class="my-8 text-center">
-            <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+            <h2 class="text-3xl font-bold text-red-700 font-openJapan">
                 Food Gallery</h2>
-            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta sapient</p>
+            <p class="text-white text-xl">
+                Some of the photos we love most
+            </p>
         </div>
         <div class="container grid gap-4 mx-auto lg:grid-cols-3 md:grid-cols-3">
             <div class="w-full rounded">
@@ -99,17 +96,23 @@
         <div class="my-16 text-center">
             <h2 class="text-4xl text-red-700 font-openJapan">
                 Testimonial </h2>
-            <p class="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. soluta sapient</p>
+            <p class="text-xl text-white">
+                A little about what customers say about us
+            </p>
         </div>
-        <div class="grid justify-center justify-items-center gap-2 lg:grid-cols-3 grid-cols-3 mx-10">
+        <div class="grid justify-center justify-items-center gap-1 lg:grid-cols-3 grid-cols-3 mx-10">
             <div class="max-w-md p-4 bg-slate-800 rounded-lg shadow-lg md:mt-16 flex flex-col justify-around">
                 <div class="flex justify-center -mt-16 md:justify-end">
                     <img class="object-cover w-20 h-20 border-2 border-red-700 rounded-full"
                         src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
                 </div>
                 <div>
-                    <h2 class="text-2xl font-semibold text-white">Combinado do chef</h2>
-                    <p class="mt-2 text-gray-600">Um dos melhores restaurantes que tive o prazer de conhecer. Realmente incrivel! Do atendimento aos pratos. Parabéns a equipe!</p>
+                    <h2 class="text-2xl font-semibold text-white">
+                        Chef's match
+                    </h2>
+                    <p class="mt-2 text-gray-600">
+                        One of the best restaurants I have had the pleasure of visiting. Really incredible! From service to dishes. Congratulations to the team!
+                    </p>
                 </div>
                 <div class="flex justify-end mt-4">
                     <a href="#" class="text-xl font-medium text-red-700 disabled">John Doe</a>
@@ -123,7 +126,9 @@
                 <div>
                     <h2 class="text-2xl font-semibold text-white">Rodizio Premium
                     </h2>
-                    <p class="mt-2 text-gray-600">Já tem alguns anos que sou cliente. E é impressionante como a qualidade sempre me surpreende. Não tem outro igual!</p>
+                    <p class="mt-2 text-gray-600">
+                        I've been a customer for a few years now. And it's amazing how quality always surprises me. There is no other like it!
+                    </p>
                 </div>
                 <div class="flex justify-end mt-4">
                     <a href="#" class="text-xl font-medium text-red-700">Katy Perry</a>
@@ -135,8 +140,12 @@
                         src="https://cdn.pixabay.com/photo/2018/01/18/17/48/purchase-3090818__340.jpg">
                 </div>
                 <div>
-                    <h2 class="text-2xl font-semibold text-white">Barca Especial</h2>
-                    <p class="mt-2 text-gray-600">Foi uma conincidência incrível conhecer esse restaurante. Atendimento nota mil. E a qualidade dos produtos é inquestionável.</p>
+                    <h2 class="text-2xl font-semibold text-white">
+                        Special boat
+                    </h2>
+                    <p class="mt-2 text-gray-600">
+                        It was an incredible coincidence to visit this restaurant. Service notes thousand. And the quality of the products is unquestionable.
+                    </p>
                 </div>
                 <div class="flex justify-end mt-4">
                     <a href="#" class="text-xl font-medium text-red-700">Demi Lovato</a>
