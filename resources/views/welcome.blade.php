@@ -29,7 +29,7 @@
             </div>
         </div>
     </section>
-    <section class="section-menus bg-center bg-no-repeat bg-contain md:max-w-none md:text-center"
+    <section class="section-menus bg-center bg-no-repeat bg-contain md:max-w-none md:text-center py-12"
     style="background-image: url('{{ asset('images/session-menus.jpg') }}')">
         <div class="text-center">
             <h3 class="text-red-700 text-2xl font-openJapan">Our Menu</h3>
@@ -48,7 +48,7 @@
                             <p class="leading-normal text-gray-600 text-start">{{ $menu->description }}</p>
                         </div>
                         <div class="flex items-center justify-between p-4">
-                            <span class="text-xl text-red-700 font-semibold">R$ {{ $menu->price }}</span>
+                            <span class="text-xl text-red-700 font-semibold">$ {{ $menu->price }}</span>
                         </div>
                     </div>
                 @endforeach
@@ -56,7 +56,7 @@
             </div>
         </div>
     </section>
-    <section class="pt-4 pb-12">
+    <section class="gallery pt-4 xl:pt-52 pb-4">
         <div class="my-8 text-center">
             <h2 class="text-3xl font-bold text-red-700 font-openJapan">
                 Food Gallery</h2>

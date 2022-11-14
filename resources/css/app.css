@@ -9,8 +9,9 @@
 
 .main-hero,
 .section-about,
-.section-menus {
-    height: 39rem;
+.section-menus,
+.gallery {
+    min-height: 39rem;
 }
 
 

@@ -20,7 +20,7 @@
         <div @click.away="open = false" class="flex flex-col flex-shrink-0 w-full text-slate-800 bg-slate-100 md:w-64 dark:text-gray-200 dark:bg-gray-800" x-data="{ open: false }">
             <div class="flex flex-row items-center justify-between flex-shrink-0 px-8 py-4">
                 <a href="#" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark:text-white focus:outline-none focus:shadow-outline">
-                    <img src="images/logo-vermelho.svg" alt="Logo Nakamura">
+                    <img src="{{ asset('images/logo-vermelho.svg') }}" alt="Logo Nakamura">
                 </a>
                 <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
                     <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
