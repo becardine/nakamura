@@ -1,19 +1,19 @@
 <x-guest-layout>
     <div class="container w-full px-5 py-6 mx-auto">
-        <div class="flex items-center min-h-screen bg-gray-50">
+        <div class="flex items-center min-h-screen">
             <div class="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
                 <div class="flex flex-col md:flex-row">
                     <div class="h-32 md:h-auto md:w-1/2">
-                        <img class="object-cover w-full h-full"
-                            src="https://cdn.pixabay.com/photo/2021/01/15/17/01/green-5919790__340.jpg" alt="img" />
+                        <img class="object-cover w-full h-full rounded-l"
+                            src="{{ asset('images/res-step-two.jpg') }}" alt="img" />
                     </div>
-                    <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
+                    <div class="flex items-center justify-center p-4 sm:p-8 md:w-1/2">
                         <div class="w-full">
-                            <h3 class="mb-4 text-xl font-bold text-blue-600">Make Reservation</h3>
+                            <h3 class="mb-4 text-xl font-bold text-slate-900">Make Reservation</h3>
 
                             <div class="w-full bg-gray-200 rounded-full">
                                 <div
-                                    class="w-100 p-1 text-xs font-medium leading-none text-center text-blue-100 bg-blue-600 rounded-full">
+                                    class="w-100 p-1 text-xs font-medium leading-none text-center text-red-100 bg-red-700 rounded-full">
                                     Step 2</div>
                             </div>
 
@@ -23,7 +23,7 @@
                                     <label for="status" class="block text-sm font-medium text-gray-700">Table</label>
                                     <div class="mt-1">
                                         <select id="table_id" name="table_id"
-                                            class="form-multiselect block w-full mt-1">
+                                            class="form-multiselect block w-full mt-1 border border-slate-300 rounded-md text-sm">
                                             @foreach ($tables as $table)
                                                 <option value="{{ $table->id }}" @selected($table->id == $reservation->table_id)>
                                                     {{ $table->name }}
@@ -39,9 +39,9 @@
 
                                 <div class="mt-6 p-1 flex justify-between">
                                     <a href="{{ route('reservations.step.one') }}"
-                                        class="px-4 py-2 bg-indigo-500 hover:bg-indigo-700 rounded-lg text-white">Previous</a>
+                                        class="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-white">Previous</a>
                                     <button type="submit"
-                                        class="px-4 py-2 bg-indigo-500 hover:bg-indigo-700 rounded-lg text-white">Make
+                                        class="px-4 py-2 bg-slate-900 hover:bg-slate-900 rounded-lg text-white">Make
                                         Reservation</button>
                                 </div>
                             </form>
